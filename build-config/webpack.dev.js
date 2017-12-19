@@ -7,7 +7,7 @@ module.exports = Merge(CommonConfig, {
   entry: ['./example/index.jsx'],
   resolve: {
     alias: {
-      wavesurfer: require.resolve('wavesurfer.js')
+      wavesurfer: require.resolve('wavesurfer')
     }
   },
   output: {
