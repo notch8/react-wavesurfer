@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     new webpack.ProvidePlugin({
-      WaveSurfer: 'wavesurfer.js'
+      WaveSurfer: 'wavesurfer'
     })
   ],
   module: {
